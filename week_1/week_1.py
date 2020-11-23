@@ -43,3 +43,6 @@ plt.show()
 cmr['Wealth'] = cmr['Profit'].cumsum()
 
 cmr.tail()
+
+cmr['Wealth'].plot()
+plt.show()
